@@ -107,7 +107,7 @@ iframe {
     height: 0;
 }
 .response {
-    color:var(--orange-color);
+    color:#FFC107;
     position: absolute;
     right: 12px;
     bottom: 12px;
@@ -138,7 +138,7 @@ iframe {
     margin-bottom: 40px;
 }
 .orange_c{
-    color:var(--orange-color);
+    color:#FFC107;
 }
 .bg_second{
     background: var(--main-bg-color);
@@ -170,7 +170,7 @@ iframe {
     position: fixed;
     right: 15px;
     bottom: 15px;
-    background:var(--orange-color);
+    background:#FFC107;
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -241,7 +241,8 @@ iframe {
     -ms-transform: scale(0.5,0.5) skewX(-18deg);
     -o-transform: scale(0.5,0.5) skewX(-18deg);
     transform: scale(0.5,0.5) skewX(-18deg);
-    background: rgb(251, 91, 33);
+    /* background: rgb(251, 91, 33); */
+    background: #FFC107;
 }
 
 .fit_btn:hover:before {
@@ -314,7 +315,7 @@ iframe {
 .fit_heading .heading_title:after {
     content: "";
     position: absolute;
-    background: var(--orange-color);
+    background: #FFC107;
     right: 0;
     left: 0;
     top: 0;
@@ -342,7 +343,7 @@ iframe {
     bottom: 0;
     width: 75px;
     height: 3px;
-    background: var(--orange-color);
+    background: #FFC107;
     transform: skewX(-20deg);
     left: 0;
 }
@@ -364,7 +365,7 @@ iframe {
     top: 0;
     margin: auto;
     bottom: 0;
-    background: var(--orange-color);
+    background: #FFC107;
     height: 3px;
     width: 26px;
     -webkit-transform:skewX(-30deg);
@@ -374,7 +375,7 @@ iframe {
     transform:skewX(-30deg);
 }
 .trainer_data .fit_btn.social_btn:after {
-    border-color:var(--orange-color);
+    border-color:#FFC107;
 }
 /* social icon css start*/
 .common_social {
@@ -456,7 +457,7 @@ iframe {
     4. Header CSS
 *******************************************************/
 .fit_header_wrapper {
-    padding: 30px 0;
+    padding: 10px 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -484,7 +485,7 @@ iframe {
     padding: 41px 0;
 }
 .main_menu_wrapper > ul > li > a:hover, .main_menu_wrapper > ul > li.active > a {
-    color:var(--orange-color);
+    color:#FFC107;
 }
 .menu_btn_wrap {
     display: flex;
@@ -504,7 +505,7 @@ iframe {
     transition: all 0.5s;
 }
 .header_social > li > a:hover svg path {
-    fill: var(--orange-color);
+    fill: #FFC107;
 }
 .header_social > li:last-child {
     margin-right: 0;
@@ -774,7 +775,7 @@ iframe {
     color: var(--white-color);
 }
 .fit_worktime_wrapper .worktime_inner {
-    background:var(--orange-color);
+    background:#FFC107;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -802,7 +803,7 @@ iframe {
     right: -15px;
     border-left: 53px solid rgb(227 227 227 / 0%);
     border-right: 53px solid rgb(251 91 33 / 0%);
-    border-bottom: 50px solid var(--orange-color);  
+    border-bottom: 50px solid #FFC107;  
     -webkit-transition: all 0s;
     -moz-transition: all 0s;
     -ms-transition: all 0s;
@@ -821,7 +822,7 @@ iframe {
     right:auto;
 }
 .fit_worktime_wrapper .nav li > a {
-    border: 2px solid var(--orange-color);
+    border: 2px solid #FFC107;
     width: 284px;
     height: 70px;
     line-height: 70px;
@@ -838,14 +839,14 @@ iframe {
     transition: all 0s;
 }
 .fit_worktime_wrapper .nav li:first-child > a{
-    border-left: 2px solid var(--orange-color) ;
+    border-left: 2px solid #FFC107 ;
 }
 .fit_worktime_wrapper .nav li:first-child > a:after {
     right: -38px;
     transform: skew(-47deg, 0deg);
     border-left: 0;
     left: auto;
-    border-right: 2px solid var(--orange-color) ;
+    border-right: 2px solid #FFC107 ;
 }
 .fit_worktime_wrapper .nav li > a:after {
     position: absolute;
@@ -856,14 +857,14 @@ iframe {
     width: 75px;
     height: 70px;
     transform: skew(47deg, 0deg);
-    border: 2px solid var(--orange-color);
+    border: 2px solid #FFC107;
     border-right: 0;
 }
 .fit_worktime_wrapper .nav li > a.active {
-    background: var(--orange-color);
+    background: #FFC107;
 }
 .fit_worktime_wrapper .nav li > a.active:after {
-    background: var(--orange-color);
+    background: #FFC107;
 }
 /********************************************************
     7. About CSS
@@ -887,7 +888,7 @@ iframe {
     bottom: 10%;
     left: -10px;
     width: 10px;
-    background: var(--orange-color);
+    background: #FFC107;
     border-radius: 10px 0 0px 10px;
 }
 .fit_about_content:before {
@@ -897,7 +898,7 @@ iframe {
     bottom: 10%;
     right: -10px;
     width: 10px;
-    background: var(--orange-color);
+    background: #FFC107;
     border-radius: 0 10px 10px 0;
 }
 .fit_about_content .about_heading {
@@ -968,7 +969,7 @@ iframe {
     transform: skewX(-10deg);
 }
 .about_nav:hover, .about_nav:focus {
-    background: var(--orange-color);
+    background: #FFC107;
 }
 .swiper-button-next:after, .swiper-button-prev:after{
     display: none;
@@ -1039,7 +1040,7 @@ iframe {
     margin: auto;
     width: 66px;
     height: 3px;
-    background:var(--orange-color);
+    background:#FFC107;
     transform: skewX(-20deg);
     -o-transform: skewX(-20deg);
     -ms-transform: skewX(-20deg);
@@ -1060,7 +1061,7 @@ iframe {
 .fit_servicebox:after {
     content: "";
     position: absolute;
-    background:var(--orange-color);
+    background:#FFC107;
     width: 80%;
     left: 0;
     right: 0;
@@ -1116,7 +1117,7 @@ iframe {
     z-index: 0;
 }
 .read_more {
-    color:var(--orange-color);
+    color:#FFC107;
 }
 .read_more:hover {
     letter-spacing: 2px;
@@ -1157,7 +1158,7 @@ iframe {
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--orange-color);
+    background: #FFC107;
     z-index: -1;
     width: 85%;
     margin: auto;
@@ -1220,7 +1221,7 @@ a.video_btn.video_popup svg {
     14. Newsletter section
 *******************************************************/
 .fit_newsletter_wrapper {
-    background: var(--orange-color);
+    background: #FFC107;
     position: relative;
 }
 .fit_news_head {
@@ -1241,7 +1242,7 @@ a.video_btn.video_popup svg {
     background: var(--white-color);
     padding: 10px 15px 10px 80px;
     border-radius: 40px;
-    color: var(--orange-color);
+    color: #FFC107;
     position: relative;
     margin-top: 28px;
     display: inline-block;
@@ -1250,10 +1251,10 @@ a.video_btn.video_popup svg {
     font-family: 'Montserrat', sans-serif;
 }
 .call_number:hover{
-    color: var(--orange-color);
+    color: #FFC107;
 }
 .call_number span {
-    background: rgb(230, 82, 28);
+    background: #FFC107;
     width: 70px;
     height: 70px;
     border-radius: 100%;
@@ -1333,12 +1334,12 @@ a.video_btn.video_popup svg {
     bottom: 0;
     width: 66px;
     height: 3px;
-    background: var(--orange-color);
+    background: #FFC107;
     transform: skewX(-20deg);
     left: 0;
 }
 .footer_blogdate {
-    color: var(--orange-color);
+    color: #FFC107;
 }
 .footer_blogtitle {
     font-weight: 600;
@@ -1356,7 +1357,7 @@ ul.footer_blogul {
 .footer_blogul > li {
     margin-bottom: 10px;
     list-style-type: disc;
-    color: var(--orange-color);
+    color: #FFC107;
 }
 .footer_cntactul > li > a {
     color: var(--txt-color);
@@ -1401,7 +1402,7 @@ ul.footer_blogul {
     color: var(--white-color);
 }
 .fit_copy_box a {
-    color: var(--orange-color);
+    color: #FFC107;
 }
 /********************************************************
     18. what we offer section
@@ -1462,7 +1463,7 @@ ul.footer_blogul {
     padding: 25px 30px;
 }
 .class_data p span {
-    color:var(--orange-color);
+    color:#FFC107;
     font-weight: 600;
 }
 .class_img > img {
@@ -1479,7 +1480,7 @@ ul.footer_blogul {
     display: flex;
 }
 .swiper_btn {
-    background: var(--orange-color);
+    background: #FFC107;
     width: 50px;
     height: 50px;
     transform: skewX(10deg);
@@ -1539,7 +1540,7 @@ ul.footer_blogul {
     color: var(--white-color);
 }
 .schedl_time_table table td:after, .schedl_time_table table th:after {
-    background:  var(--orange-color);
+    background:  #FFC107;
     content: "";
     left: 0;
     right: 0;
@@ -1627,7 +1628,7 @@ ul.footer_blogul {
     bottom: 0;
     width: 66px;
     height: 3px;
-    background: var(--orange-color);
+    background: #FFC107;
     transform: skewX(-20deg);
     left: 0;
     right: 0;
@@ -1656,7 +1657,7 @@ span.gym_trainer {
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
     display: inline-block;
-    color: var(--orange-color);
+    color: #FFC107;
 }
 .single_blog_info {
     display: flex;
@@ -1686,7 +1687,7 @@ span.gym_trainer {
     padding: 25px 0;
 }
 .blog_testi2 {
-    background: var(--orange-color);
+    background: #FFC107;
     border-radius: 10px;
     margin: 50px 0;
 }
@@ -1740,7 +1741,7 @@ span.fit_user_name2 {
     font-weight: 400;
     display: inline-block;
     margin-left: 34px;
-    color: var(--orange-color);
+    color: #FFC107;
     font-family: 'Mulish', sans-serif;
 }
 .sigl_blog_cmntinner ul li .fit_comment_holder {
@@ -1809,7 +1810,7 @@ span.fit_user_name2 {
     position: absolute;
     top: 10px;
     left: 0;
-    background: var(--orange-color);
+    background: #FFC107;
     width: 5px;
     height: 5px;
     border-radius: 100%;
@@ -1843,11 +1844,11 @@ span.fit_user_name2 {
     text-align: center;
 }
 .blog_pagination_wrapper ul > li.active a{
-    background:var(--orange-color);
+    background:#FFC107;
     color:var(--white-color);
 }
 .blog_pagination_wrapper ul > li:hover a{
-    background:var(--orange-color);
+    background:#FFC107;
     color:var(--white-color);
 }
 
@@ -1871,7 +1872,7 @@ span.fit_user_name2 {
 }
 .location_heading {
     font-size: 22px;
-    background: var(--orange-color);
+    background: #FFC107;
     padding: 15px 10px;
     display: inline-block;
     position: relative;
@@ -1885,7 +1886,7 @@ span.fit_user_name2 {
     top: 0;
     right: -9px;
     bottom: 0;
-    background: var(--orange-color);
+    background: #FFC107;
     transform: skewX(-18deg);
 }
 .fit_location_inner .location_ul {
