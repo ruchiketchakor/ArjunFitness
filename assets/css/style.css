@@ -399,6 +399,7 @@ iframe {
     -moz-transform: skewX(0deg);
     -webkit-transform: skewX(0deg);
     border-radius: 100%;
+    border: none;
     transition: all 0s;
 }
 .fit_btn.social_btn:hover:after {
